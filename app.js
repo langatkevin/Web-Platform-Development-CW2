@@ -33,6 +33,8 @@ app.use('/api/user', userRoutes);
 app.use('/api/opportunity', opportunityRoutes);
 app.use('/api/mentor', mentorRoutes);
 
+app.get("/", (req, res)=>res.json({message:"Hello, welcome to MentorUp"}))
+
 // Start the server
 const PORT = process.env.PORT || 3001;
 app.listen(PORT, () => {
