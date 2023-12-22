@@ -1,5 +1,5 @@
 const express = require('express');
-const OpportunityController = require('../controllers/OpportunityController');
+const OpportunityController = require('../controllers/opportunityController');
 const { authenticateUser } = require('../controllers/auth');
 
 const router = express.Router();
