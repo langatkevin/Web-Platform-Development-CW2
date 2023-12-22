@@ -1,5 +1,5 @@
 const express = require('express');
-const MentorController = require('../controllers/MentorController');
+const MentorController = require('../controllers/mentorController');
 const { authenticateUser, authorizeAdmin } = require('../controllers/auth');
 
 const router = express.Router();
